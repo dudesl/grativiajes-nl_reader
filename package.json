@@ -1,14 +1,20 @@
 {
-  "name": "nl-reader",
-  "version": "1.0.0",
-  "description": "",
+  "name": "grativiajes-nl_reader",
+  "version": "0.0.1",
+  "description": "A NL Reader tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "train": "node train.js",
+    "start": "node start.js"
   },
-  "author": "",
+  "author": "Santiago Barchetta",
   "license": "ISC",
   "dependencies": {
     "natural": "^0.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dudesl/grativiajes-nl_reader"
   }
 }
